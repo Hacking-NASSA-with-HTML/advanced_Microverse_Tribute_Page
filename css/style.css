@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1024px;
+}
+
 #main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1024px;
 }
 
 #img-div {
@@ -18,4 +29,17 @@
 
 img {
     display: block;
+}
+
+#tribute-link {
+    padding: 10vh 0 20vh 0;
+    /* margin-bottom: 3vh; */
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    cursor: pointer;
 }
