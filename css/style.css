@@ -36,6 +36,10 @@ img {
     /* margin-bottom: 3vh; */
 }
 
+.wiki-a-tag {
+    color: darkblue;
+}
+
 a {
     text-decoration: none;
     font-size: 30px;
